@@ -1,4 +1,4 @@
-# llm-field-guide
+# Musem Tour Guide using LLM
 
 ## Setup
 ### Python Virtual Environment
