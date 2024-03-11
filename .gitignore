@@ -2,5 +2,6 @@
 .env
 
 testing-env
+*/__pycache__
 
 */*.mp3

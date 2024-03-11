@@ -1,0 +1,23 @@
+{
+    "museum": "The Met",
+    "exhibits": {
+        "met01": {
+            "id": "met01",
+            "markerId": 11,
+            "title": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
+            "artist": "Van Gogh",
+            "date": "1887",
+            "description": "Van Gogh produced more than twenty self-portraits during his Parisian sojourn (1886-88). Short of funds but determined nevertheless to hone his skills as a figure painter, he became his own best sitter: 'I purposely bought a good enough mirror to work from myself, for want of a model.' This picture, which shows the artist's awareness of Neo-Impressionist technique and color theory, is one of several that are painted on the reverse of an earlier peasant study.",
+            "system": "You are a tour guide at The Met museum. I am currently looking at the 'Self-Portrait with a Straw Hat (obverse: The Potato Peeler)' exhibit by Van Gogh, dated 1887. Van Gogh produced more than twenty self-portraits during his Parisian sojourn (1886-88). Short of funds but determined nevertheless to hone his skills as a figure painter, he became his own best sitter: 'I purposely bought a good enough mirror to work from myself, for want of a model.' This picture, which shows the artist's awareness of Neo-Impressionist technique and color theory, is one of several that are painted on the reverse of an earlier peasant study."
+        },
+        "met02": {
+            "id": "met02",
+            "markerId": 12,
+            "title": "Head and Shoulders of a Sphinx of Hatshepsut",
+            "artist": "",
+            "date": "ca. 1479–1458 B.C.",
+            "description": "This fragmentary sphinx represents the female pharaoh Hatshepsut. Portions of six granite sphinxes were discovered during the Museum's excavations in the area of Hatshepsut's mortuary temple at Deir el-Bahri in Western Thebes. A nearly complete example is on display in gallery 131. This sphinx still retains substantial blue paint on the royal beard, traces of yellow paint on the pleats of the nemes-headcloth, and small amounts of paint around the eyes. A smaller sphinx in a different style is also owned by the Museum.",
+            "system": "You are a tour guide at The Met museum. I am currently looking at the 'Head and Shoulders of a Sphinx of Hatshepsut' exhibit, dated ca. 1479-1458 B.C.. This fragmentary sphinx represents the female pharaoh Hatshepsut. Portions of six granite sphinxes were discovered during the Museum's excavations in the area of Hatshepsut's mortuary temple at Deir el-Bahri in Western Thebes. A nearly complete example is on display in gallery 131. This sphinx still retains substantial blue paint on the royal beard, traces of yellow paint on the pleats of the nemes-headcloth, and small amounts of paint around the eyes. A smaller sphinx in a different style is also owned by the Museum."
+        }
+    }
+}

@@ -1,16 +1,51 @@
 from dotenv import load_dotenv
 load_dotenv()
 
+import json
+
 from openai import OpenAI
+from pathlib import Path
+
+from SpeechToText import stt
+from TextToSpeech import tts
 
 client = OpenAI()
 
-completion = client.chat.completions.create(
-  model="gpt-3.5-turbo",
-  messages=[
-    {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-    {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
-  ]
-)
+json_file = open(Path.cwd() / "chatgpt-test" /"exhibits" / "met.json")
+json_data = json.load(json_file)
 
-print(completion.choices[0].message)
+if __name__ == "__main__":
+    museum_name = json_data['museum']
+    print(f'Welcome to the {museum_name} Museum')
+
+    exhibits = json_data['exhibits']
+    ex_id = input('Enter the ID of the exhibit (N to exit): ')
+
+    while not ex_id.upper() == 'N':
+      ex = exhibits[ex_id]
+
+      print(f'You are at the "{ex["title"]}" exhibit. Ask me a question!')
+      question = stt(client)
+      print(question)
+
+      # Create chat completion
+      completion = client.chat.completions.create(
+         model="gpt-3.5-turbo",
+         messages=[
+            {
+               "role": "system",
+               "content": ex['system']
+            },
+            {
+               "role": "user",
+               "content": question
+            }
+         ]
+      )
+      response = completion.choices[0].message.content
+      print(response)
+
+      tts(client, response)
+
+      ex_id = input('Enter the ID of the exhibit (N to exit): ')
+    
