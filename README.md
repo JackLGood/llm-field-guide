@@ -27,7 +27,7 @@ Libraries for dealing with sound recording and playback:
 ```
 Libraries for marker recognition with OpenCV:
 ```
-pip install opencv2
+pip install opencv-python
 ```
 LLM libraries for Python:
 ```
