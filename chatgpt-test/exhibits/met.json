@@ -1,7 +1,7 @@
 {
     "museum": "The Met",
     "exhibits": {
-        "met01": {
+        "11": {
             "id": "met01",
             "markerId": 11,
             "title": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
@@ -10,7 +10,7 @@
             "description": "Van Gogh produced more than twenty self-portraits during his Parisian sojourn (1886-88). Short of funds but determined nevertheless to hone his skills as a figure painter, he became his own best sitter: 'I purposely bought a good enough mirror to work from myself, for want of a model.' This picture, which shows the artist's awareness of Neo-Impressionist technique and color theory, is one of several that are painted on the reverse of an earlier peasant study.",
             "system": "You are a tour guide at The Met museum. I am currently looking at the 'Self-Portrait with a Straw Hat (obverse: The Potato Peeler)' exhibit by Van Gogh, dated 1887. Van Gogh produced more than twenty self-portraits during his Parisian sojourn (1886-88). Short of funds but determined nevertheless to hone his skills as a figure painter, he became his own best sitter: 'I purposely bought a good enough mirror to work from myself, for want of a model.' This picture, which shows the artist's awareness of Neo-Impressionist technique and color theory, is one of several that are painted on the reverse of an earlier peasant study."
         },
-        "met02": {
+        "12": {
             "id": "met02",
             "markerId": 12,
             "title": "Head and Shoulders of a Sphinx of Hatshepsut",
