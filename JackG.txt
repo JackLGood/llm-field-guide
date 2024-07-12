@@ -1,0 +1,78 @@
+JACK L. GOOD
+Boulder, CO
+jlg444@cornell.edu
+(720) 668-7343
+www.linkedin.com/in/jacklgood/
+
+EDUCATION
+Cornell University, College of Arts and Sciences
+Intended Dual B.A. in Computer Science, Economics
+GPA: 3.44/4
+Relevant Coursework: Functional Programming, Foundations in Artificial
+Intelligence, Object-Oriented Programming & Data Structures, Linear Algebra,
+Discrete Structures, Game Theory & Strategic Thinking.
+
+TECHNICAL SKILLS & PROJECTS
+Programming Languages: Python, Java, OCaml, JavaScript (familiar)
+Libraries/Tools: NumPy, SciPy, pandas, Swing (Java), LaTeX, Microsoft 365
+
+Interactive Image Selection (Photoshop Magnetic Lasso): Created interactive Java
+UI featuring an algorithm which enables users to select a path that tries to
+follow “edges” in the image by calculating shortest paths from a starting point
+to all of the other pixels in the image. Features live path calculation,
+progress bar, and edit menu.
+
+Connect-N (with AI opponent): Implemented working version of Connect 4 in Python
+which contains fully customizable game board as well as the ability to play
+another local player or computer AI. The AI player was designed using min-max
+strategy to calculate the best possible move given game constraints.
+
+Alien Invaders: Developed basic version of Space Invaders in Python that allows
+players to play multiple waves of the classic arcade video game. Featuring
+multiple difficulty levels, sound effects, alien types, and game states.
+
+PROFESSIONAL EXPERIENCE
+ATLAS Institute
+Boulder, CO
+May 2024 - Present
+I don't yet.
+
+University of Colorado
+Boulder, CO
+Computational Chemistry Researcher, Department of Chemistry
+Oct 2022 – Aug 2023
+Applied Pandas and NumPy libraries to create data processing pipelines,
+enhancing data efficiency and accuracy. Developed 2000+ lines of Python code to
+visualize matrix outputs of the ‘Generalize Quantum Master Equation’. Presented
+two, one hour department wide presentations on the derivation of the ‘GQME’ to
+an audience of 100+
+
+LEADERSHIP AND ACTIVITIES
+Mutual Investment Club of Cornell
+Ithaca, NY
+ESG analyst
+Sept 2023 - Present
+Selected as one of eight new members out of a competitive pool of over 150+
+applicants. Pitched two companies as an analyst for the ESG investing group
+leading to $2000 in investments.
+
+Delta Upsilon Fraternity
+Ithaca, NY
+Recruitment Chair, Cornell University Chapter
+Aug 2023 - Present
+Tripled new class size compared to previous years by emphasizing holistic
+relationships with potential members. Managed $35k budget across 12 recruitment
+events requiring the organization and compliance of 80+ members.
+
+Phi Chi Theta Professional Business Fraternity
+Ithaca, NY
+Brotherhood Chair, Phi Chi Theta
+Sept 2022 - Present
+Fostered unity among member through organizing 10+ brotherhood events with
+limited budget and space. Underwent rigorous new member education process on
+general finance/consulting skills and practices.
+
+PERSONAL
+Interests: Tennis, golf, skiing, running, fly-fishing, watches,
+Denver Nuggets/Broncos, and Norteño/Corrido music
+Languages: Chinese (conversational), Spanish (conversational)
