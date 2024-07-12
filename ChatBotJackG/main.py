@@ -1,6 +1,6 @@
 import os
 
-from SpeechTT import speechToText
+from SpeechToText import speechToText
 from RunAI import getResponse
 from TextToSpeech import textToSpeech
 
