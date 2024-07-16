@@ -3,6 +3,7 @@ import os
 from SpeechToText import speechToText
 from RunAI import getResponse
 from TextToSpeech import textToSpeech
+from ProcessAndSendtoESP import process_audio_and_send
 
 from openai import OpenAI
 
@@ -22,7 +23,8 @@ def main():
         response_text = getResponse(user_input)
 
         # Convert the chatbot's response text to speech
-        textToSpeech(response_text)
+        filepath=textToSpeech(response_text)
+        process_audio_and_send(filepath)
     else:
         print("No valid input received. Exiting.")
 

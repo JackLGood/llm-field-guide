@@ -10,9 +10,13 @@ def textToSpeech(response_text):
     Parameter input: input text.
     Precondition: String.
     """
+    filename = "response.mp3"
     with client.audio.speech.with_streaming_response.create(
         model="tts-1",
         voice="fable",
         input=response_text,
     ) as response:
-        response.stream_to_file("response.mp3")
+        response.stream_to_file(filename)
+    
+    filepath = Path(filename).resolve()
+    return str(filepath)
