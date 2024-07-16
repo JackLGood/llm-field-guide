@@ -10,4 +10,6 @@ def tts(client, text):
         input = text
     )
     response.stream_to_file(speech_file)
+    
     playsound(speech_file.absolute().as_posix())
+    return speech_file

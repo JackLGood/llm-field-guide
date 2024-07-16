@@ -8,6 +8,7 @@ from pathlib import Path
 
 from SpeechToText import stt
 from TextToSpeech import tts
+from SendToESP import process_audio_and_send
 from MarkerDetection import Detector
 
 client = OpenAI()
@@ -49,7 +50,9 @@ if __name__ == "__main__":
       response = completion.choices[0].message.content
       print(response)
 
-      tts(client, response)
-
+      Soundpath =tts(client, response)
+      
+      process_audio_and_send(Soundpath)
+      
       ex_id = input('Enter the ID of the exhibit (N to exit): ')
     
